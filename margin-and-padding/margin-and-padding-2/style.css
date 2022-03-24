@@ -1,5 +1,5 @@
 body {
-  background: #eee;
+  background: black;
   font-family: sans-serif;
 }
 
@@ -11,17 +11,34 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 0;
+  padding: 8px;
+  font-size: 16px;
+  border: 8px solid white;
 }
 
 .content {
-  background: #e3f4ff;
+  background: #e3f4ff; 
+  padding: 8px;
+  border-bottom: 8px solid white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  font-size: 14px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  border-bottom: 8px solid white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  font-size: 12px;
+  text-align: center;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 1px solid black;
+  display: block;
+  margin: 0px auto;
 }
