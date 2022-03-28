@@ -3,7 +3,8 @@
   background: papayawhip;
   display: flex;
   flex-flow: row;
-  align-items: center;
+  /*Vertical alignment*/
+  align-items: center; 
 }
 
 .logo {
@@ -12,7 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: auto;
 }
 
 ul {
@@ -20,7 +20,16 @@ ul {
   list-style-type: none;
   display: flex;
   flex-flow: row;
-  padding: 0 10px;
+  padding: 15px 10px;
+  gap: 15px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }
 
 a {
