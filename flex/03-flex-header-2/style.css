@@ -54,13 +54,9 @@ ul {
   padding: 0;
   gap: 16px;
 }
-.left-elements {
-  display: flex;
-  align-items: center;
-}
-.right-elements {
+
+.navbar {
   display: flex;
   align-items: center;
   gap: 16px;
-  /* Need to push items to the right side */
 }
