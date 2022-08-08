@@ -29,13 +29,14 @@
 }
 
 .menu {
+  display: grid;
 }
 
 .menu ul {
   list-style-type: none;
   display: grid;
+  align-self: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
 }
 
 .menu ul,
