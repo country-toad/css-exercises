@@ -31,11 +31,13 @@
 }
 
 .menu ul {
+  list-style-type: none;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  display: inline-block;
 }
 
 .sidebar {
