@@ -84,6 +84,10 @@
 }
 
 .nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  white-space: nowrap;
 }
 
 .nav ul li {
