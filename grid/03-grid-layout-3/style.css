@@ -6,7 +6,9 @@
 .container {
   text-align: center;
   display: grid;
-  grid: 100px 50px 1fr 20px / 1fr 4fr;
+  width: 100vw;
+  height: 100vh;
+  grid: repeat(4, 1fr) / 1fr 4fr;
   gap: 4px;
 }
 
@@ -130,6 +132,8 @@
 
 .footer {
   background-color: #393f4d;
+  grid-row: 4;
+  grid-column: 1 / 3;
 }
 
 .footer p {
